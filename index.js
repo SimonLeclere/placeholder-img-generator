@@ -12,3 +12,4 @@ exports.pollock = require('./generators/pollock');
 exports.noise = require('./generators/noise');
 exports.matrix = require('./generators/matrix');
 exports.color = require('./generators/color');
+exports.hypnoticSquares = require('./generators/hypnoticSquares');

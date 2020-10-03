@@ -1,6 +1,6 @@
 {
   "name": "placeholder-img-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A nodeJS module for creating placeholders images",
   "main": "index.js",
   "scripts": {

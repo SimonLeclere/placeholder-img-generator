@@ -194,6 +194,34 @@ generator.gradient().then((buffer) => {
 
 ![color](examples%20images/gradient.png)
 
+* ### hypnoticSquares(options)
+
+Generates a cool placeholder with hypnotic squares.
+
+Options : 
+```js
+{
+  width: Number,
+  height: Number,
+  colors: Array
+}
+```
+
+Example : 
+```js
+const generator = require('placeholder-img-generator');
+
+generator.hypnoticSquares().then((buffer) => {
+
+    fs.writeFile(`./hypnoticSquares.png`, buffer, () => {
+        console.log('finished generating!')
+    });
+
+})
+```
+
+![color](examples%20images/hypnoticSquares.png)
+
 * ### joyDivision(options)
 
 Generates a placeholder composed of several small randomly generated waves. Code adapted from [generativeartistry.com](https://generativeartistry.com/)

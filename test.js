@@ -3,11 +3,11 @@ const generator = require('./index.js');
 
 console.time();
 
-generator.braids({width: 1184, height: 300}).then((buffer) => {
+generator.hypnoticSquares({width: 1184, height: 300}).then((buffer) => {
 
     console.timeEnd();
 
-    fs.writeFile(`./test.png`, buffer, () => {
+    fs.writeFile(`./examples images/hypnoticSquares.png`, buffer, () => {
         console.log('finished generating!')
     });
 
