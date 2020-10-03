@@ -1,0 +1,28 @@
+{
+  "name": "placeholder.js",
+  "version": "1.0.0",
+  "description": "A nodeJS module for creating placeholders images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonLeclere/PlaceHolder.js.git"
+  },
+  "keywords": [
+    "placeholder",
+    "canvas"
+  ],
+  "author": "Simon Leclère",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonLeclere/PlaceHolder.js/issues"
+  },
+  "homepage": "https://github.com/SimonLeclere/PlaceHolder.js#readme",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "nice-color-palettes": "^3.0.0"
+  },
+  "devDependencies": {}
+}

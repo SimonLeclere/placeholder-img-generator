@@ -1,0 +1,14 @@
+exports.cellularAutomata = require('./generators/cellularAutomata');
+exports.circlePacking = require('./generators/circlePacking');
+exports.cubicDisarray = require('./generators/cubicDisarray');
+exports.tiledlines = require('./generators/tiledlines');
+exports.joyDivision = require('./generators/joyDivision');
+exports.mondrian = require('./generators/mondrian');
+exports.triangularMesh = require('./generators/triangularMesh');
+exports.unDeuxTrois = require('./generators/unDeuxTrois');
+exports.braids = require('./generators/braids');
+exports.gradient = require('./generators/gradient');
+exports.pollock = require('./generators/pollock');
+exports.noise = require('./generators/noise');
+exports.matrix = require('./generators/matrix');
+exports.color = require('./generators/color');
