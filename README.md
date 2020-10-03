@@ -1,25 +1,25 @@
-<h1 align="center">Welcome to Placeholder.js 👋</h1>
+<h1 align="center">Welcome to placeholder-img-generator 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.2.1-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/SimonLeclere/PlaceHolder.js#readme" target="_blank">
+  <a href="https://github.com/SimonLeclere/placeholder-img-generator#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://github.com/SimonLeclere/PlaceHolder.js/graphs/commit-activity" target="_blank">
+  <a href="https://github.com/SimonLeclere/placeholder-img-generator/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/SimonLeclere/PlaceHolder.js/blob/master/LICENSE" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/github/license/SimonLeclere/PlaceHolder.js" />
+  <a href="https://github.com/SimonLeclere/placeholder-img-generator/blob/master/LICENSE" target="_blank">
+    <img alt="License: ISC" src="https://img.shields.io/github/license/SimonLeclere/placeholder-img-generator" />
   </a>
 </p>
 
 A simple nodeJS module for creating placeholders images using canvas.
 
-https://www.npmjs.com/package/placeholder.js
+https://www.npmjs.com/package/placeholder-img-generator
 
 ## Install 
 
 ```sh
-npm i placeholder.js
+npm i placeholder-img-generator
 ```
 
 ## Usage
@@ -42,7 +42,7 @@ Options :
 Example :
 ```js
 const fs = require('fs')
-const generator = require('placeholder.js');
+const generator = require('placeholder-img-generator');
 
 generator.braids().then((buffer) => {
 
@@ -71,7 +71,7 @@ Options :
 Example : 
 ```js
 const fs = require('fs')
-const generator = require('placeholder.js');
+const generator = require('placeholder-img-generator');
 
 generator.cellularAutomata().then((buffer) => {
 
@@ -100,7 +100,7 @@ Options :
 Example : 
 ```js
 const fs = require('fs')
-const generator = require('placeholder.js');
+const generator = require('placeholder-img-generator');
 
 generator.circlePacking().then((buffer) => {
 
@@ -127,7 +127,7 @@ Options :
 
 Example : 
 ```js
-const generator = require('placeholder.js');
+const generator = require('placeholder-img-generator');
 
 generator.color().then((buffer) => {
 
@@ -154,7 +154,7 @@ Options :
 
 Example : 
 ```js
-const generator = require('placeholder.js');
+const generator = require('placeholder-img-generator');
 
 generator.cubicDisarray().then((buffer) => {
 
@@ -181,7 +181,7 @@ Options :
 
 Example : 
 ```js
-const generator = require('placeholder.js');
+const generator = require('placeholder-img-generator');
 
 generator.gradient().then((buffer) => {
 
@@ -209,7 +209,7 @@ Options :
 
 Example : 
 ```js
-const generator = require('placeholder.js');
+const generator = require('placeholder-img-generator');
 
 generator.joyDivision().then((buffer) => {
 
@@ -235,7 +235,7 @@ Options :
 
 Example : 
 ```js
-const generator = require('placeholder.js');
+const generator = require('placeholder-img-generator');
 
 generator.matrix().then((buffer) => {
 
@@ -262,7 +262,7 @@ Options :
 
 Example : 
 ```js
-const generator = require('placeholder.js');
+const generator = require('placeholder-img-generator');
 
 generator.mondrian().then((buffer) => {
 
@@ -289,7 +289,7 @@ Options :
 
 Example : 
 ```js
-const generator = require('placeholder.js');
+const generator = require('placeholder-img-generator');
 
 generator.noise().then((buffer) => {
 
@@ -316,7 +316,7 @@ Options :
 
 Example : 
 ```js
-const generator = require('placeholder.js');
+const generator = require('placeholder-img-generator');
 
 generator.pollock().then((buffer) => {
 
@@ -343,7 +343,7 @@ Options :
 
 Example : 
 ```js
-const generator = require('placeholder.js');
+const generator = require('placeholder-img-generator');
 
 generator.tiledLines().then((buffer) => {
 
@@ -371,7 +371,7 @@ Options :
 
 Example : 
 ```js
-const generator = require('placeholder.js');
+const generator = require('placeholder-img-generator');
 
 generator.triangularMesh().then((buffer) => {
 
@@ -398,7 +398,7 @@ Options :
 
 Example : 
 ```js
-const generator = require('placeholder.js');
+const generator = require('placeholder-img-generator');
 
 generator.unDeuxTrois().then((buffer) => {
 
@@ -428,7 +428,7 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2020 [Simon Leclere](https://github.com/SimonLeclere).<br />
-This project is [MIT](https://github.com/SimonLeclere/PlaceHolder.js/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/SimonLeclere/placeholder-img-generator/blob/master/LICENSE) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
