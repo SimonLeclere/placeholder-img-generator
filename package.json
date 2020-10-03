@@ -17,9 +17,9 @@
   "author": "Simon Leclère",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SimonLeclere/PlaceHolder.js/issues"
+    "url": "https://github.com/SimonLeclere/placeholder-img-generator/issues"
   },
-  "homepage": "https://github.com/SimonLeclere/PlaceHolder.js#readme",
+  "homepage": "https://github.com/SimonLeclere/placeholder-img-generator#readme",
   "dependencies": {
     "canvas": "^2.6.1",
     "nice-color-palettes": "^3.0.0"
