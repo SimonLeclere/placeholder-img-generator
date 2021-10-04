@@ -382,7 +382,7 @@ generator.tiledLines().then((buffer) => {
 })
 ```
 
-![color](examples%20images/tiledLines.png)
+![color](examples%20images/tiledlines.png)
 
 * ### triangularMesh(options)
 
